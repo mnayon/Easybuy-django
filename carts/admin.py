@@ -1,7 +1,7 @@
-from carts.models import Cartiteam
+from carts.models import Cartitem
 from django.contrib import admin
-from .models import Cart,Cartiteam
+from .models import Cart,Cartitem
 
 # Register your models here.
 admin.site.register(Cart)
-admin.site.register(Cartiteam)
+admin.site.register(Cartitem)

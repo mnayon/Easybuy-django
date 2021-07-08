@@ -32,9 +32,12 @@
 		<div class="card card-product-grid">
 			<a href="{{ product.get_url }}" class="img-wrap"> <img src="{{ product.image.url }}"> </a>
 			<figcaption class="info-wrap">
-				<a href="{{ product.get_url }}" class="title">{{ product.product_name }}</a>
-				<div class="price mt-1">{{ product.price }}</div> <!-- price-wrap.// -->
+				<a href="{{ product.get_url }}" class="title text-center">{{ product.product_name }}</a>
+				<div class="price mt-2 text-center">{{ product.price }}</div> <!-- price-wrap.// -->
+				<br>
+				<a href="{{  product.get_url }}" class="btn btn-block btn-primary">View Details </a>
 			</figcaption>
+			
 		</div>
 	</div> <!-- col.// -->
 	{% endfor %}
