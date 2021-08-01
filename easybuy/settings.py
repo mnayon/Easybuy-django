@@ -145,6 +145,6 @@ MESSAGE_TAGS = {
 #smtp configarations
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'moniruzzamannayon97@gmail.com'
-EMAIL_HOST_PASSWORD = '62966nayon62966'
+EMAIL_HOST_USER = 'moniruzzamannayon96@gmail.com'
+EMAIL_HOST_PASSWORD = '62966nayon17101010'
 EMAIL_USE_TLS = True
